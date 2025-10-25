@@ -8,8 +8,11 @@ The code in this replication material generates the 2 equations, 6 figures and 6
 The main contents of the repository are the following:
 
 Data/: folder of underlying data files
+
 Figure_[xx]_*.*: R or Ox scripts to create the respective figures
+
 Table_[xx]_*.*: R or Ox scripts to create the respective tables
+ß
 Equation_[xx]_*.Ox: Ox scripts to replicate the respective equations
 
 
