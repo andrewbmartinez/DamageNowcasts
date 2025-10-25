@@ -23,7 +23,7 @@ The analysis files can be run individually, in any order.
 
 These analyses were run on R 4.5.0 and Ox 9.3, and I explicitly use the following R packages in the analysis files: readxl (1.4.5), tidyverse (2.0.0), lmtest (0.9.40), and sandwich (3.1.1).
 
-Note that some parts of the Ox code requires an Ox Professional license to run.
+Note that some parts of the Ox code requires an Ox Professional license to run. 
 
 ## Data availability 
 
@@ -36,6 +36,14 @@ These were collected through a number of sources and is meant to be as comprehen
 ### Official Damages
 
 These primarily come from NOAA's Tropical Cyclone Reports released for each hurricane in the months after it occurs (https://www.nhc.noaa.gov/data/tcr/). Additionally, while it was still being updated NOAA's NCEI Billion Dollar Disaster database was used which feeds directed in the the Tropical Cyclone reports and provides uncertainty about the estimates (https://www.ncei.noaa.gov/access/billions/). This is no longer being updated but the data is still available. Real-time vintages for the Billion Dollar Disasters database was obtained from NOAA (https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc%3A0209268) and was converted from real to nominal damages using the appropriate CPI vintage obtained from ALFRED (https://alfred.stlouisfed.org/series?seid=CPIAUCSL). Additional data on damages was obtained from the EM-DAT database (https://www.emdat.be/)
+
+### Real-time Hazards 
+
+The hazard data is almost exclusively obtained from  NOAA's Tropical Cyclone Reports released for each hurricane in the months after it occurs (https://www.nhc.noaa.gov/data/tcr/) which provides information on central pressure, storm surge and rainfall. Additionally, real-time vintages of storm surge, rainfall and central pressure were obtained from regular storm advisories as close to landfall as possible (https://www.nhc.noaa.gov/archive/2025/). This archive also provides the historical information on the forecasts and location of the storm. Additional official rainfall data was obtained from NOAA's Tropical Cyclone Rainfall data (https://www.wpc.ncep.noaa.gov/tropical/rain/tcrainfall.html) as well as near-real time data from CoCoRaHS (https://www.cocorahs.org/) which helps inform the NOAA data.
+
+### Real-time Vulnerabilities
+
+
 
 
 
