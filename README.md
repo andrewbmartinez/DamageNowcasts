@@ -46,3 +46,7 @@ The hazard data is almost exclusively obtained from  NOAA's Tropical Cyclone Rep
 The vulnerability data is obtained from a mixture of sources from the Bureau of Economic Analysis and Census. The BEA's real-time vintage data on personal income and population by county (https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas) serves as the backbone of the analysis and is supplemented by there real-time vintages of state-level and national income and population data. The housing unit and area data is obtained directly from Census (https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-housing-units.html).
 
 ## References
+
+Martinez AB. Forecast Accuracy Matters for Hurricane Damage. Econometrics. 2020; 8(2):18. https://doi.org/10.3390/econometrics8020018
+
+
