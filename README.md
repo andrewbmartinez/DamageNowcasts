@@ -1,5 +1,5 @@
 # Replication Package for "Real-time Hurricane Damage Nowcasts"
-Andrew B. Martinez
+Andrew B. Martinez (October 25, 2025)
 
 ## Overview & contents
 
