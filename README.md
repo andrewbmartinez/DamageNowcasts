@@ -33,4 +33,10 @@ The data underyling the analysis is in the data folder. Some of the data process
 
 These were collected through a number of sources and is meant to be as comprehensive as possible for the storms that we consider. My aims is to update this at least once per hurricane season. As described in the paper the main source is through news article searches in LexisNexis as well as alternative catastrophe modeler websites. However a fairly good recent source is Artemis.bm (https://www.artemis.bm/) which generally tracks commercial model estimates as they are released. 
 
+### Official Damages
+
+These primarily come from NOAA's Tropical Cyclone Reports released for each hurricane in the months after it occurs (https://www.nhc.noaa.gov/data/tcr/). Additionally, while it was still being updated NOAA's NCEI Billion Dollar Disaster database was used which feeds directed in the the Tropical Cyclone reports and provides uncertainty about the estimates (https://www.ncei.noaa.gov/access/billions/). This is no longer being updated but the data is still available. Real-time vintages for the Billion Dollar Disasters database was obtained from NOAA (https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc%3A0209268) and was converted from real to nominal damages using the appropriate CPI vintage obtained from ALFRED (https://alfred.stlouisfed.org/series?seid=CPIAUCSL). Additional data on damages was obtained from the EM-DAT database (https://www.emdat.be/)
+
+
+
 ## References
